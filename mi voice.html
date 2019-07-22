@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Mi Voice | Dar El Taqnya Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="defaul.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="LOGO.png" />
+</head>
+<body>
+<a href="default.html"><div class="col-3 col-m-12" style="float:left"><img id="logo" height="auto" src="Wireframe [ Homepage - Desktop view ] Revision 2.jpg" width="100%"></div></a>
+<div id="menu" class="col-9 col-m-12" style="float:left;height:auto;">
+<ul>
+<li><a href="default.html">Home</a></li>
+<li><a href="product.html">Product</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about us.html">About Us</a></li>
+<li><a href="contactus.html">Contact Us</a></li>
+<li><a href="writetous.html">Write To Us</a></li>
+</ul>
+</div>
+
+<div class="col-12 col-m-12" id="products" style="background-color:#E2E2E2;float:left;height:auto; padding-top:0px; margin-top:0;">
+	<div class="col-12 col-m-12" style="background-color:#5b5959;height: 70px;line-height:70px; ">
+		<h1 style="color: white; margin-top: 0; margin-left: 40px; font-family: 'Poppins', sans-serif;">MiContact Center</h1>
+	</div> 
+	
+	<!--PUT YOUR CONTENT DOWN HERE-->
+	<div class="col-11 " style="margin:30px auto 2px auto; height: auto; padding: 20px 50px 30px 50px; background-color:#ffffff; border-left: 5px black solid;" >
+		<br><br>
+The ultimate contact center application that helps your business to empower customers with self-service capabilities and leverage the power
+<br><br>
+<img src="pictures/mi contact.jpg">
+<br><br>
+		
+	</div>
+
+</div>
+
+
+<div class="contain">
+	<div class="col-4  " style="float:left">
+		<img height="auto" src="Wireframe [ Homepage - Desktop view ] Revision 2.jpg" width="100%">
+	</div>
+	<div class="col-12  footer" style="float:left">
+		<div class="col-2 insidefooter" id="aboutMenu" >
+			<ul style="padding: 0; margin: 0;">
+				<li><strong>About The Company</strong></li>
+				<li><a href="history.html">History</a></li>
+				<li><a href="ownership.html">Ownership</a></li>
+				<li><a href="partner.html">Partner</a></li>
+				<li><a href="story.html">Story</a></li>
+			</ul>
+		</div>
+		<div class="col-2 insidefooter">
+			<ul style="padding: 0; margin: 0;">
+				<li><strong>Our Location</strong></li>
+				<li>Al Zawa Street</li>
+				<li>Tripoli Libya</li>
+			</ul>
+		</div>
+		<div class="col-2 insidefooter">
+			<ul style="padding: 0; margin: 0;">
+				<li><strong>Contact</strong></li>
+				<li>P.O Box :</li>
+				<li>Phone : +218 21 333 3724</li>
+				<li>Fax : +218 21 333 2376</li>
+				<li>Email : Info@dareltaqnya.ly</li>
+			</ul>
+		</div>
+		<div class="col-2 insidefooter">
+			<div class="col-m-12">
+				<strong>Follow</strong>
+			</div>
+			<a href="not_available.html"><img  class="icon" src="partner/twitter_logo.png"></a>
+			<a href="not_available.html"><img class="icon" src="partner/youtube_logo.png" ></a>
+			<a href="not_available.html"><img class="icon" src="partner/ig_logo.png" ></a>
+			<a href="not_available.html"><img class="icon" src="partner/fb_logo.png" ></a>
+		</div>		
+	</div>
+	
+</div>
+
+<div id="Copyright" class="contain" >
+	<div class="col-4  " style="float:left;margin-bottom: 30px;">
+	<p>© 2017 FFB Inc. All rights reserved.</p>	
+	</div>
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+
+</script>
+</body>
+
+</html>
